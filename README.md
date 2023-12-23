@@ -2,9 +2,9 @@
 
 Install and configure [Bareos](https://www.bareos.com/) File Daemon.
 
-|GitHub|Downloads|Version|Issues|Pull Requests|
-|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/bareos_fd)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
