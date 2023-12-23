@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include buluma.bareos_fd"
+      include_role:
+        name: "buluma.bareos_fd"
