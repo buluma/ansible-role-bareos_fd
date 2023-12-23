@@ -2,9 +2,9 @@
 
 Install and configure [Bareos](https://www.bareos.com/) File Daemon.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-bareos_fd/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bareos_fd)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/bareos_fd)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -225,10 +225,10 @@ bareos_fd_encryption_master_public_key: ""
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bareos_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bareos_repository/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bareos_repository)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bareos_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_repository.svg)](https://github.com/shadowwalker/ansible-role-bareos_repository)|
 
 ## [Context](#context)
 
