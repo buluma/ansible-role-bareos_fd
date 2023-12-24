@@ -1,10 +1,10 @@
-# [Ansible role bareos_fd](#bareos_fd)
+# Ansible role [bareos_fd](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_fd/documentation)
 
 Install and configure [Bareos](https://www.bareos.com/) File Daemon.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_fd/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_fd.svg)](https://github.com/buluma/ansible-role-bareos_fd/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/bareos_fd)](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_fd/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -227,8 +227,8 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bareos_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_repository.svg)](https://github.com/shadowwalker/ansible-role-bareos_repository)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bareos_repository](https://galaxy.ansible.com/buluma/bareos_repository)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bareos_repository/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_repository/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_repository.svg)](https://github.com/shadowwalker/ansible-role-bareos_repository)|
 
 ## [Context](#context)
 
@@ -264,13 +264,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-bareos_fd/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-bareos_fd/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
