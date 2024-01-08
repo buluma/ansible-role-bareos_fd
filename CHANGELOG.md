@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0](https://github.com/buluma/ansible-role-bareos_fd/tree/0.2.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-bareos_fd/compare/0.1.0...0.2.0)
+
 ## [0.1.0](https://github.com/buluma/ansible-role-bareos_fd/tree/0.1.0) (2023-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-bareos_fd/compare/8a651a8926d4f44e107ec945fc96e8e1bb5879c2...0.1.0)
