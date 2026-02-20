@@ -1,5 +1,4 @@
 ---
-
 - name: encryption | Install python cryptography package
   ansible.builtin.package:
     name: "{{ bareos_fd_encryption_packages }}"
