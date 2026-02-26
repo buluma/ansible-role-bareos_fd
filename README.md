@@ -187,26 +187,25 @@ bareos_fd_heartbeat_interval: 0
 
 # The Directors to connect to.
 bareos_fd_directors:
-- name: "bareos-dir"
-  password: "secretpassword"
-  monitor: false
-  description: "Allow the configured Director to access this file daemon."
-- name: bareos-mon
-  password: "secretpassword"
-  monitor: true
-  description: "Restricted Director, used by tray-monitor to get the status of this
-    file daemon."
+  - name: "bareos-dir"
+    password: "secretpassword"
+    monitor: false
+    description: "Allow the configured Director to access this file daemon."
+  - name: bareos-mon
+    password: "secretpassword"
+    monitor: true
+    description: "Restricted Director, used by tray-monitor to get the status of this file daemon."
 
 # The Messages to configure.
 bareos_fd_messages:
-- name: "Standard"
-  director:
-    server: bareos-dir
-    messages:
-    - all
-    - "!skipped"
-    - "!restored"
-  description: "Send relevant messages to the Director."
+  - name: "Standard"
+    director:
+      server: bareos-dir
+      messages:
+        - all
+        - "!skipped"
+        - "!restored"
+    description: "Send relevant messages to the Director."
 
 # For encryption of data, set this to `true`.
 bareos_fd_encryption_enabled: false
