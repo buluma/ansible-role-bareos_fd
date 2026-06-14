@@ -4,5 +4,5 @@ roles:
   - name: buluma.bareos_repository
     src: https://github.com/buluma/ansible-role-bareos_repository.git
 
-collections: []
+collections:
   - name: community.crypto
