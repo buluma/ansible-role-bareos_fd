@@ -10,7 +10,7 @@
       bareos_fd_backup_configurations: true
       bareos_fd_install_debug_packages: true
       bareos_fd_encryption_enabled: true
-      bareos_fd_encryption_private_key: "{{ lookup('ansible.builtin.file', lookup('ansible.builtin.env', 'MOLECULE_EPHEMERAL_DIRECTORY') ~ '/bareos_fd_private.key') }}"
+      bareos_fd_encryption_private_key: "{{ lookup('ansible.builtin.file', lookup('ansible.builtin.env', 'MOLECULE_EPHEMERAL_DIRECTORY') ~ '/bareos_fd_private.key', rstrip=False) }}"
       bareos_fd_encryption_master_public_key: |
         -----BEGIN CERTIFICATE-----
         MIIDyjCCArKgAwIBAgIJAIAjOIGqAGRwMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYD
