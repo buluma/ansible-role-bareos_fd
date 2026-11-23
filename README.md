@@ -85,6 +85,18 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 ```yaml
 ---
+# The encryption key is generated for every run, so no private key is committed.
+- name: Prepare test key
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Generate a private key for bareos_fd_encryption_private_key
+      ansible.builtin.command:
+        cmd: openssl genrsa -traditional -out {{ lookup('ansible.builtin.env', 'MOLECULE_EPHEMERAL_DIRECTORY') }}/bareos_fd_private.key 4096
+        creates: "{{ lookup('ansible.builtin.env', 'MOLECULE_EPHEMERAL_DIRECTORY') }}/bareos_fd_private.key"
+
 - name: Prepare
   hosts: all
   become: true
